@@ -1,0 +1,504 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Candy Shop",
+      "address": "722 Orville Cape",
+      "squareFootage": 230
+    },
+    {
+      "id": 2,
+      "name": "Craigs Chocolate",
+      "address": "7271 O'Reilly Course",
+      "squareFootage": 93
+    },
+    {
+      "id": 3,
+      "name": "Willy Wonkas Wonky Bars",
+      "address": "956 Lyric Stravenue",
+      "squareFootage": 75
+    },
+    {
+      "id": 4,
+      "name": "Charlie Chocolate Shop",
+      "address": "6632 Osborne Harbor",
+      "squareFootage": 120
+    },
+    {
+      "id": 5,
+      "name": "The Grinch's Candy Kingdom",
+      "address": "8236 Luettgen Canyon",
+      "squareFootage": 175
+    }
+  ],
+  "users": [
+    {
+      "email": "orange@monkey.com",
+      "fullName": "Orange Monkey",
+      "isStaff": true,
+      "id": 1
+    },
+    {
+      "email": "red@monkey.com",
+      "fullName": "Red Monkey",
+      "isStaff": false,
+      "id": 2
+    },
+    {
+      "email": "blue@monkey.com",
+      "fullName": "Blue Monkey",
+      "isStaff": true,
+      "id": 3
+    },
+    {
+      "email": "green@monkey",
+      "fullName": "Green Monkey",
+      "isStaff": false,
+      "id": 4
+    }
+  ],
+  "customers": [
+    {
+      "userId": 2,
+      "loyaltyNumber": 11657,
+      "id": 1
+    },
+    {
+      "userId": 4,
+      "loyaltyNumber": 28789,
+      "id": 2
+    }
+  ],
+  "employees": [
+    {
+      "userId": 1,
+      "startDate": "2022-10-11",
+      "payRate": 10,
+      "id": 1,
+      "locationId": 3
+    },
+    {
+      "userId": 3,
+      "locationId": 5,
+      "startDate": "2010-02-15",
+      "payRate": 88,
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "House-Made Dark Chocolate",
+      "typeId": 2,
+      "ppu": 2.99
+    },
+    {
+      "id": 2,
+      "name": "Est ut consequatur",
+      "typeId": 1,
+      "ppu": 4.99
+    },
+    {
+      "id": 3,
+      "name": "Voluptate eos at",
+      "typeId": 3,
+      "ppu": 3.99
+    },
+    {
+      "id": 4,
+      "name": "Mollitia",
+      "typeId": 6,
+      "ppu": 1.99
+    },
+    {
+      "id": 5,
+      "name": "Terum quibusdam quia",
+      "typeId": 5,
+      "ppu": 22.99
+    },
+    {
+      "id": 6,
+      "name": "Eius",
+      "typeId": 4,
+      "ppu": 0.99
+    },
+    {
+      "id": 7,
+      "name": "Sint",
+      "typeId": 7,
+      "ppu": 1.99
+    },
+    {
+      "id": 8,
+      "name": "Enim incidunt soluta",
+      "typeId": 7,
+      "ppu": 1.99
+    },
+    {
+      "id": 9,
+      "name": "Sint eum doloremque",
+      "typeId": 4,
+      "ppu": 2.99
+    },
+    {
+      "id": 10,
+      "name": "Excepturi numquam et",
+      "typeId": 5,
+      "ppu": 6.99
+    },
+    {
+      "id": 11,
+      "name": "Vel",
+      "typeId": 2,
+      "ppu": 4.99
+    },
+    {
+      "id": 12,
+      "name": "Numquam dolor eos",
+      "typeId": 3,
+      "ppu": 2.99
+    },
+    {
+      "id": 13,
+      "name": "Quo",
+      "typeId": 6,
+      "ppu": 3.99
+    },
+    {
+      "id": 14,
+      "name": "Sit",
+      "typeId": 1,
+      "ppu": 9.99
+    },
+    {
+      "id": 15,
+      "name": "Fugit consequatur delectus",
+      "typeId": 7,
+      "ppu": 4.99
+    },
+    {
+      "id": 16,
+      "name": "Modi",
+      "typeId": 4,
+      "ppu": 7.99
+    },
+    {
+      "name": "Dark Chocolate Bar",
+      "typeId": "2",
+      "ppu": "3.99",
+      "id": 17
+    },
+    {
+      "name": "Chocolate Bar",
+      "typeId": "2",
+      "ppu": "7.86",
+      "id": 18
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "label": "Gum"
+    },
+    {
+      "id": 2,
+      "label": "Chocolate"
+    },
+    {
+      "id": 3,
+      "label": "Soda"
+    },
+    {
+      "id": 4,
+      "label": "Hard Candy"
+    },
+    {
+      "id": 5,
+      "label": "Soft Candy"
+    },
+    {
+      "id": 6,
+      "label": "Mints"
+    },
+    {
+      "id": 7,
+      "label": "Gummies"
+    }
+  ],
+  "purchases": [
+    {
+      "customerId": 1,
+      "productId": 18,
+      "amount": 1,
+      "id": 1
+    },
+    {
+      "customerId": 1,
+      "productId": 17,
+      "amount": 1,
+      "id": 2
+    },
+    {
+      "customerId": 1,
+      "productId": 1,
+      "amount": 1,
+      "id": 3
+    },
+    {
+      "customerId": 1,
+      "productId": 11,
+      "amount": 1,
+      "id": 4
+    },
+    {
+      "customerId": 1,
+      "productId": 18,
+      "amount": 1,
+      "id": 5
+    },
+    {
+      "customerId": 1,
+      "productId": 2,
+      "amount": 1,
+      "id": 6
+    },
+    {
+      "customerId": 2,
+      "productId": 18,
+      "amount": 1,
+      "id": 7
+    },
+    {
+      "customerId": 2,
+      "productId": 7,
+      "amount": 1,
+      "id": 8
+    },
+    {
+      "customerId": 2,
+      "productId": 14,
+      "amount": 1,
+      "id": 9
+    },
+    {
+      "customerId": 2,
+      "productId": 15,
+      "amount": 1,
+      "id": 10
+    },
+    {
+      "customerId": 2,
+      "productId": 10,
+      "amount": 1,
+      "id": 11
+    },
+    {
+      "customerId": 2,
+      "productId": 2,
+      "amount": 1,
+      "id": 12
+    },
+    {
+      "customerId": 2,
+      "productId": 10,
+      "amount": 1,
+      "id": 13
+    },
+    {
+      "customerId": 2,
+      "productId": 1,
+      "amount": 1,
+      "id": 14
+    },
+    {
+      "customerId": 1,
+      "productId": 2,
+      "amount": 1,
+      "id": 15
+    },
+    {
+      "customerId": 1,
+      "productId": 15,
+      "amount": 1,
+      "id": 16
+    },
+    {
+      "customerId": 1,
+      "productId": 10,
+      "amount": 1,
+      "id": 17
+    }
+  ],
+  "locationProducts": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "locationId": 1,
+      "productId": 2
+    },
+    {
+      "id": 3,
+      "locationId": 5,
+      "productId": 3
+    },
+    {
+      "id": 4,
+      "locationId": 3,
+      "productId": 4
+    },
+    {
+      "id": 5,
+      "locationId": 2,
+      "productId": 5
+    },
+    {
+      "id": 6,
+      "locationId": 4,
+      "productId": 6
+    },
+    {
+      "id": 7,
+      "locationId": 4,
+      "productId": 7
+    },
+    {
+      "id": 8,
+      "locationId": 1,
+      "productId": 8
+    },
+    {
+      "id": 9,
+      "locationId": 2,
+      "productId": 9
+    },
+    {
+      "id": 10,
+      "locationId": 3,
+      "productId": 10
+    },
+    {
+      "id": 11,
+      "locationId": 5,
+      "productId": 11
+    },
+    {
+      "id": 12,
+      "locationId": 5,
+      "productId": 12
+    },
+    {
+      "id": 13,
+      "locationId": 2,
+      "productId": 13
+    },
+    {
+      "id": 14,
+      "locationId": 1,
+      "productId": 14
+    },
+    {
+      "id": 15,
+      "locationId": 3,
+      "productId": 15
+    },
+    {
+      "id": 16,
+      "locationId": 4,
+      "productId": 16
+    },
+    {
+      "id": 17,
+      "locationId": 4,
+      "productId": 17
+    },
+    {
+      "id": 18,
+      "locationId": 1,
+      "productId": 17
+    },
+    {
+      "id": 19,
+      "locationId": 1,
+      "productId": 16
+    },
+    {
+      "id": 20,
+      "locationId": 5,
+      "productId": 15
+    },
+    {
+      "id": 21,
+      "locationId": 3,
+      "productId": 5
+    },
+    {
+      "id": 22,
+      "locationId": 2,
+      "productId": 7
+    },
+    {
+      "id": 23,
+      "locationId": 4,
+      "productId": 4
+    },
+    {
+      "id": 24,
+      "locationId": 4,
+      "productId": 6
+    },
+    {
+      "id": 25,
+      "locationId": 1,
+      "productId": 18
+    },
+    {
+      "id": 26,
+      "locationId": 2,
+      "productId": 12
+    },
+    {
+      "id": 27,
+      "locationId": 3,
+      "productId": 11
+    },
+    {
+      "id": 28,
+      "locationId": 5,
+      "productId": 10
+    },
+    {
+      "id": 29,
+      "locationId": 5,
+      "productId": 9
+    },
+    {
+      "id": 30,
+      "locationId": 2,
+      "productId": 15
+    },
+    {
+      "id": 31,
+      "locationId": 3,
+      "productId": 17
+    },
+    {
+      "id": 32,
+      "locationId": 3,
+      "productId": 16
+    },
+    {
+      "id": 33,
+      "locationId": 4,
+      "productId": 14
+    },
+    {
+      "id": 34,
+      "locationId": 4,
+      "productId": 13
+    }
+  ]
+}
